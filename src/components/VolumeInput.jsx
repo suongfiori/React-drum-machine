@@ -4,6 +4,7 @@ import Slider from '@mui/material/Slider';
 import VolumeDown from '@mui/icons-material/VolumeDown';
 import VolumeUp from '@mui/icons-material/VolumeUp';
 import { styled } from '@mui/material/styles';
+// import styled from '@emotion/styled';
 
 const CustomSlider = styled(Slider)(({ theme }) => ({
   color: '#b25244',
