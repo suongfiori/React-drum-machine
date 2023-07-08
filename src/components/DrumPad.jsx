@@ -11,6 +11,8 @@ const DrumPad = ({ volume, setMessage, powerState, currentBank, clickedPad, setC
     }
   }, [volume])
 
+  const audioBank = currentBank === 'bankOne' ? DrumAudioData.bankOne : DrumAudioData.bankTwo;
+
   const handleKeydown = (e) => {
     audioBank.forEach((audio) => {
       if (e.keyCode === audio.keyCode) {
@@ -25,7 +27,7 @@ const DrumPad = ({ volume, setMessage, powerState, currentBank, clickedPad, setC
     return () => {
       document.removeEventListener('keydown', handleKeydown)
     }
-  }, [])
+  }, [currentBank])
 
   const handleAudio = (src, id) => {
     if (powerState) return
@@ -35,8 +37,6 @@ const DrumPad = ({ volume, setMessage, powerState, currentBank, clickedPad, setC
     setMessage(id)
     setClickedPad(id)
   }
-
-  const audioBank = currentBank === 'bankOne' ? DrumAudioData.bankOne : DrumAudioData.bankTwo;
 
   return (
     <div id="drum-pad" className="pads-container">
