@@ -1,17 +1,16 @@
-import VolumeInput from './VolumeInput';
 import ToggleBank from './ToggleBank';
 import Display from './Display';
 import PowerButton from './PowerButton';
 
 const DisplayZone = ({
   message,
-  setMessage,
-  volume,
   togglePower,
-  handleVolumeChange,
   toggleState,
   toggleBank,
   powerState
+  // setMessage,
+  // volume,
+  // handleVolumeChange,
 }) => {
 
   return (
@@ -29,13 +28,6 @@ const DisplayZone = ({
           togglePower={togglePower}
         />
       </div>
-      <VolumeInput 
-          volume={volume} 
-          onVolumeChange={handleVolumeChange} 
-          setMessage={setMessage} 
-          powerState={powerState}
-          disabled={!powerState}
-      />
     </div>
   )
 }
