@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import DrumPad from './components/DrumPad';
 import DisplayZone from './components/DisplayZone';
+import Footer from './components/Footer';
 import './App.css';
 
 
@@ -40,6 +41,7 @@ const App = () => {
   }
 
   return (
+    <>
     <div id="drum-machine"className="container" >
       <DisplayZone
         message={message}
@@ -59,7 +61,10 @@ const App = () => {
         clickedPad={clickedPad}
         setClickedPad={setClickedPad}
       />
+     
     </div>
+     <Footer />
+     </>
   )
 }
 

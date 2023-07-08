@@ -12,18 +12,19 @@
 body {
   font-family: "Orbitron", sans-serif;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: rgba(194, 186, 186, 0.824);
+  background-color: rgba(241, 239, 239, 0.824);
 }
 .container {
   width: 400px;
   padding: 1rem;
   text-align: center;
-  background-color: rgba(248, 234, 234, 0.705);
-  border-radius: 0.8rem;
-  border: 0.3rem solid rgb(100, 98, 98);
+  background-color: whitesmoke;
+  border: 2px solid rgb(100, 98, 98);
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
   border-radius: 0.8rem;
 }
 .centered {
@@ -37,13 +38,15 @@ body {
 .display-controls {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center;  
   justify-content: center;
-  background: rgba(0, 0, 0, 0.05);
+  background: rgb(227, 219, 219);
   color: rgba(0, 0, 0, 0.7);
   border-radius: 10px;
-  text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.2);
+  text-shadow: 1px 1px 0px rgba(62, 51, 51, 0.2);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin: 1rem;
+  padding: 0.5rem;
   text-transform: uppercase;
   font-size: 0.8rem;
   letter-spacing: 0.1em;
@@ -57,7 +60,7 @@ body {
   color: var(--clr-dark);
   box-shadow: rgb(87, 88, 90) 2px 2px 4px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
   border-radius: 5px;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 .display p {
   margin: 0;
@@ -203,7 +206,7 @@ body {
   font-weight: 700;
   color: var(--clr-dark);
   text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.2);
-  background-color: whitesmoke;
+  background-color: rgba(215, 196, 196, 0.705);
   transition: background-color 0.3s ease;
 }
 .drum-pad:focus {
@@ -234,10 +237,14 @@ body {
 /****** FOOTER ******/
 
 .footer {
-  font-size: 0.8rem;
-  text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-top: auto;
+  padding: 0.6rem;
+  font-size: 0.8rem;
+  font-family: Verdana, sans-serif;
+  font-size: 0.8rem;
+}
+.footer a {
+  color: #989191;
 }
 
 /****** RESPONSIVE  ******/
@@ -249,9 +256,10 @@ body {
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
-    min-width: 50vw;
-    min-height: 45vh;
+    min-width: 55vw;
+    min-height: 55vh;
     padding: 1.5rem;
+    margin-bottom: auto;
   }
   .pads-container {
     grid-gap: 0.3rem;
@@ -259,19 +267,22 @@ body {
     flex-grow: 1;
   }
   .display-controls{
-    margin-left: 1rem;
+    margin-left: 2rem;
     width: 50%;
     flex-grow: 1;
   }
   .display {
     font-weight: bold;
     flex-basis: 55%;
-    height: 80px;
+    /* height: 100px; */
     padding: 1rem;
   }
   .drum-pad {
-    width: 80px;
-    height: 60px;
+    width: 5.5rem;
+    height: 4.5rem;
+  }
+  .footer {
+    margin-top: auto;
   }
 }
 
