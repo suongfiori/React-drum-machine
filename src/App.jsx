@@ -48,7 +48,7 @@ const App = () => {
         setMessage={setMessage}
         volume={volume}
         togglePower={togglePower}
-        powerState={powerState}
+        powerState={powerState} 
         handleVolumeChange={handleVolumeChange}
         toggleState={toggleState}
         toggleBank={toggleBank}
