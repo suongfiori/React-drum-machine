@@ -1,10 +1,13 @@
 <h1> FCC - Drum Machine Documentation </h1>
 Mobile First
-<img src="https://github.com/suongfiori/React-drum-machine/blob/main/src/assets/mobile-first.png" alt="screenshot" width="20%" /> 
-Power On
-<img src="https://github.com/suongfiori/React-drum-machine/blob/main/src/assets/desktop.png" alt="screenshot" width="50%" /> <br>
 
-Power Off
+<img src="https://github.com/suongfiori/React-drum-machine/blob/main/src/assets/mobile-first.png" alt="screenshot" width="20%" /> 
+
+Desktop - Power On
+
+<img src="https://github.com/suongfiori/React-drum-machine/blob/main/src/assets/desktop.png" alt="screenshot" width="50%" /> <be>
+
+Desktop - Power Off
 
 <img src="https://github.com/suongfiori/React-drum-machine/blob/main/src/assets/desktop-1.png" alt="screenshot" width="50%" />
 
