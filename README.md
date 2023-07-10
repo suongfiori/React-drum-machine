@@ -196,6 +196,3 @@ const generateAudioBank = (bankAudios) => {
 The `generateDrumPadObject` function takes the `keyTrigger`, `src`, and `id` as parameters and returns an object that includes these properties along with the dynamically generated `keyCode` using `keyTrigger.charCodeAt(0)`. 
 
 The `generateAudioBank` function utilizes `generateDrumPadObject` to generate an entire audio bank by mapping over the provided `bankAudios`. This ensures that each drum pad in the bank has a unique `keyCode` associated with its `keyTrigger`.
-
-## Conclusion
-This documentation provides an overview of the Drum Machine project, including installation instructions, usage guidelines, and details about the different components. 
