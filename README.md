@@ -28,11 +28,14 @@ The Drum Machine is a simple web-based application I developed as a learning pro
 
 By working on this Drum Machine project, I gained valuable experience and knowledge in the following areas:
 
-###React JS: I gained insights into React's component-based architecture, state management, and event handling.
+### React JS: 
+I gained insights into React's component-based architecture, state management, and event handling.
 
-###Vite: I learned how to set up a modern development environment using Vite, a fast and efficient build tool for web applications. I understood the benefits of using Vite for quick development iterations and optimized production builds.
+### Vite: 
+I learned how to set up a modern development environment using Vite, a fast and efficient build tool for web applications. I understood the benefits of using Vite for quick development iterations and optimized production builds.
 
-###Problem-Solving: I encountered various challenges during the development process and applied problem-solving skills to overcome them. I understood the importance of breaking down complex tasks into smaller, manageable parts and employed logical thinking to devise effective solutions.
+### Problem-Solving: 
+I encountered various challenges during the development process and applied problem-solving skills to overcome them. I understood the importance of breaking down complex tasks into smaller, manageable parts and employed logical thinking to devise effective solutions.
 
 Throughout this documentation, you will find explanations, code snippets, and examples that demonstrate how these technologies and problem-solving approaches were utilized to create a functional and engaging Drum Machine.
 
@@ -196,3 +199,9 @@ const generateAudioBank = (bankAudios) => {
 The `generateDrumPadObject` function takes the `keyTrigger`, `src`, and `id` as parameters and returns an object that includes these properties along with the dynamically generated `keyCode` using `keyTrigger.charCodeAt(0)`. 
 
 The `generateAudioBank` function utilizes `generateDrumPadObject` to generate an entire audio bank by mapping over the provided `bankAudios`. This ensures that each drum pad in the bank has a unique `keyCode` associated with its `keyTrigger`.
+
+### Update drum machine with theme switcher feature
+
+- Implemented theme switcher functionality to allow users to change the theme of the drum machine interface
+- Updated styles and added new SCSS files for theme-related styling
+- Removed App.css and migrated all styles to styles.scss for better code organization
