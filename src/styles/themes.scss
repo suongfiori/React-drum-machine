@@ -1,0 +1,121 @@
+$clr-dark: #58130c;
+$clr-lighter: #b25244;
+$clr-light-brown: rgb(206, 155, 155);
+
+$primary: #172D13;
+$secondary: #6BB77B;
+$accent: #D76F30;
+$contrast: rgb(227, 222, 222);
+
+
+.theme-options {
+    margin: 0 auto;
+    text-align: right;
+    padding: 15px 0;
+    div {
+        cursor: pointer;
+        width: 20px;
+        height: 20px;
+        border-radius: 4px;
+        margin: 2px 5px;
+        border: 1px solid #fff;
+        display: inline-block;
+        opacity: 0.5;
+        &.active {
+            opacity: 1;
+            border: 2px solid #fff;
+        }
+    }
+
+    #theme-mint {
+        background-color: #6BB77B;
+    }    
+    #theme-orange {
+        background-color: #FFB84C;
+    }
+    #theme-purple {
+        background-color: #7852ae;
+    }
+    #theme-peach {
+        background-color: #E7AB9A;
+        border: 1px solid #938f8f;
+    }
+}
+
+.App.theme-orange {
+    .content-box {
+        background-color: #F29727;
+    }
+    .display-controls {
+        background-color: #22A699;
+        p {
+            color: #b64b1e;
+        }
+    }
+    .drum-pad {
+        background-color: whitesmoke;
+        border: 2px solid #025464;
+    }
+    .section-toggle { 
+        background-color: #F24C3D;
+    }
+    .section-toggle label:after {
+        background-color: whitesmoke;
+    }
+    .bank-label {
+        color: whitesmoke;
+        }
+    }
+
+.App.theme-purple {
+    .content-box {
+        background-color: #40128B;
+    }
+    .display-controls {
+        background-color: #9575DE;
+        border: 2px solid #FFE79B;
+        p {
+            color: #7852ae;
+        }
+    }
+    .drum-pad {
+        background-color: whitesmoke;
+        border: 2px solid #FFE79B;
+    }
+    .section-toggle { 
+        background-color: whitesmoke;
+    }
+    .section-toggle label:after {
+        background-color: #DD58D6;
+    }
+    .footer {
+        color: #7852ae;
+        a {
+            color: #7852ae;
+        }
+    }
+}
+
+.App.theme-peach {
+    .content-box {
+        background-color: #FFEADD;
+    }
+    .display-controls {
+        background-color: whitesmoke;
+        border: 2px solid #617143;
+        p {
+            color: #617143;
+        }
+    }
+    .drum-pad {
+        background-color: whitesmoke;
+        border: 2px solid #617143;
+    }
+    .section-toggle { 
+        background-color: #617143;
+    }
+    
+    .section-toggle label:after {
+        background-color: whitesmoke;
+    }
+}

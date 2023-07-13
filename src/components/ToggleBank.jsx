@@ -1,7 +1,7 @@
 const ToggleBank = ({ checked, onChange, powerState }) => {
   return (
     <div className="wrap">
-      <span className='bank-label'>bank</span>
+      <span className='bank-label'>Bank</span>
       <section className={`section-toggle ${checked ? 'checked' : ''}`}>
         <input 
           id="toggle-bank" 
