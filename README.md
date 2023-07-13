@@ -1,9 +1,15 @@
 <h1> FCC - Drum Machine Documentation </h1>
-Power On
-<img src="https://github.com/suongfiori/React-drum-machine/blob/main/public/desktop.png" alt="screenshot" width="60%" />
-<hr>
-Power Off
-<img src="https://github.com/suongfiori/React-drum-machine/blob/main/public/desktop-1.png" alt="screenshot" width="60%" />
+Mobile First
+
+<img src="https://github.com/suongfiori/React-drum-machine/blob/main/src/assets/mobile-first.png" alt="screenshot" width="20%" /> 
+
+Desktop - Power On
+
+<img src="https://github.com/suongfiori/React-drum-machine/blob/main/src/assets/desktop.png" alt="screenshot" width="50%" /> <be>
+
+Desktop - Power Off
+
+<img src="https://github.com/suongfiori/React-drum-machine/blob/main/src/assets/desktop-1.png" alt="screenshot" width="50%" />
 
 ## Table of Contents
 1. Introduction
@@ -190,6 +196,3 @@ const generateAudioBank = (bankAudios) => {
 The `generateDrumPadObject` function takes the `keyTrigger`, `src`, and `id` as parameters and returns an object that includes these properties along with the dynamically generated `keyCode` using `keyTrigger.charCodeAt(0)`. 
 
 The `generateAudioBank` function utilizes `generateDrumPadObject` to generate an entire audio bank by mapping over the provided `bankAudios`. This ensures that each drum pad in the bank has a unique `keyCode` associated with its `keyTrigger`.
-
-## Conclusion
-This documentation provides an overview of the Drum Machine project, including installation instructions, usage guidelines, and details about the different components. 
