@@ -1,15 +1,14 @@
 <h1> FCC - Drum Machine Documentation </h1>
-Mobile First
+(Updated with color theme toggle)
 
+<img src="src/assets/theme-orange.png" alt="Drum Machine Project" width="50%" />
+
+<img src="src/assets/theme-purple.png" alt="Drum Machine Project" width="50%" />
+
+<img src="src/assets/theme-green.png" alt="Drum Machine Project" width="50%" />
+
+Mobile First 
 <img src="https://github.com/suongfiori/React-drum-machine/blob/main/src/assets/mobile-first.png" alt="screenshot" width="20%" /> 
-
-Desktop - Power On
-
-<img src="https://github.com/suongfiori/React-drum-machine/blob/main/src/assets/desktop.png" alt="screenshot" width="50%" /> <be>
-
-Desktop - Power Off
-
-<img src="https://github.com/suongfiori/React-drum-machine/blob/main/src/assets/desktop-1.png" alt="screenshot" width="50%" />
 
 ## Table of Contents
 1. Introduction
